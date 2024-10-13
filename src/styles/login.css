@@ -1,0 +1,101 @@
+.background {
+  background-image: url("../images/loginBackground.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.loginContainer {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+  top: 20%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.loginForm {
+  width: 384px;
+}
+
+.formContainer {
+  margin-bottom: 10px;
+}
+
+.username {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 37px;
+  left: 10px;
+  transition: all 0.5s ease;
+}
+
+#username {
+  width: 100%;
+  padding: 8px;
+  height: 25px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.password {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+  top: 37px;
+  left: 10px;
+  transition: all 0.5s ease;
+}
+
+#password {
+  width: 100%;
+  padding: 8px;
+  height: 25px;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.location {
+  margin-bottom: 5px;
+  position: relative;
+  width: 404px;
+  padding: 14px;
+  top: 25px;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  top: 45px;
+  left: 9px;
+}
+.locationItem {
+  width: 100%;
+}
+
+.focused {
+  top: 1px;
+  left: 60px;
+  font-weight: 700;
+  color: black;
+  scale: 1.3;
+}

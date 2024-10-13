@@ -1,0 +1,84 @@
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 2px 20px;
+}
+
+.navbarList {
+    list-style: none;
+    position: relative; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbarItem {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100px;
+}
+
+.navbarItem p {
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    color: #646cff;
+    align-items: center;
+    justify-content: center;
+
+    transition: color 0.3s;
+}
+
+.navbarItem:hover {
+    cursor: pointer;
+}
+
+.spacer {
+    width: 30%;
+}
+
+.dropdownItem {
+    z-index: 10;
+    padding-left: 0;
+}
+
+.dropdownMenu {
+    z-index: 10;
+    background-color: #333;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    right: 24%;
+    justify-items: center;
+    align-items: center;
+    color: white;   
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  
+.searchInput {
+    border: 1px solid black;
+    /* border-color: black; */
+    border-radius: 30px;
+    flex: 3;
+    padding: 10px;
+  }

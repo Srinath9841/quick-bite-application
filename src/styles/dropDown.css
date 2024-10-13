@@ -1,0 +1,34 @@
+.dropdown {
+  position: relative;
+  align-self: center;
+  color:#646cff;
+  height: 100%;
+}
+
+.dropdownToggle {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+/* .dropdownMenu {
+  position: absolute;
+  background-color: rgb(55, 55, 55);
+  z-index: 10;
+  width: 145%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 40px;
+}
+
+.dropdownMenu li {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+} */
+
+
+
+
