@@ -15,9 +15,9 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/quick-bite" element={<LoginPage />} />
-          <Route path="/quick-bite/home" element={<HomePage setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
-          <Route path="/quick-bite/cart" element={<Cart setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
+          <Route path="/quick-bite-application" element={<LoginPage />} />
+          <Route path="/quick-bite-application/home" element={<HomePage setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
+          <Route path="/quick-bite-application/cart" element={<Cart setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
           {/* <Route path="/" exact component={LoginPage} /> */}
         </Routes>
       </Router>
