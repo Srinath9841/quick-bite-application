@@ -1,13 +1,13 @@
 {
-  "homepage": "https://srinath9841.github.io/quick-bite/",
-  "name": "demo",
+  "homepage": "https://srinath9841/github.io/quick-bite-application/",
+  "name": "quick-bite-application",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
