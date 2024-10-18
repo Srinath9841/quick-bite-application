@@ -13,7 +13,7 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const handleLogin = (event) => {
     event.preventDefault();
-    navigate("/home")
+    navigate("/quick-bite-application/home")
     
   };
 

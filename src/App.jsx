@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router,Routes, Route  } from "react-router-dom";
+import { BrowserRouter ,Routes, Route  } from "react-router-dom";
 import LoginPage from "./src/LoginPage";
 import logoBackground from "./images/loginBackground.webp";
 import { useState } from "react";
@@ -13,14 +13,14 @@ function App() {
   
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route path="/quick-bite-application" element={<LoginPage />} />
-          <Route path="/home" element={<HomePage setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
-          <Route path="/cart" element={<Cart setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
+          <Route path="/quick-bite-application/home" element={<HomePage setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
+          <Route path="/quick-bite-application/cart" element={<Cart setSelectedItems={setSelectedItems} selectedItems={selectedItems}/>} />
           {/* <Route path="/" exact component={LoginPage} /> */}
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }

@@ -35,7 +35,7 @@ const Navbar = () => {
     </div>
     <div style={{width:"12%"}} ></div>
       <ul className="navbarList">
-        <li className="navbarItem" onClick={() => navigate('/home')}>
+        <li className="navbarItem" onClick={() => navigate('/quick-bite-application/home')}>
           <p>Home</p>
         </li>
         <li className="navbarItem"  onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
@@ -51,7 +51,7 @@ const Navbar = () => {
          </div>}
          </div>
         </li>
-        <li className="navbarItem" onClick={() => navigate('/cart')}>
+        <li className="navbarItem" onClick={() => navigate('/quick-bite-application/cart')}>
           <p>Cart</p>
         </li>
       </ul>
